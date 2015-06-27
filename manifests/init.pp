@@ -120,7 +120,7 @@ class statsite (
   $stream_cmd        = undef,
   $graphite_host     = 'localhost',
   $graphite_port     = 2003,
-  $graphite_prefix   = 'statsite',
+  $graphite_prefix   = 'statsite.',
   $graphite_attempts = 3,
   $input_counter     = undef,
   $pid_file          = '/var/run/statsite.pid',
