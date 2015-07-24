@@ -30,6 +30,7 @@ class statsite::config inherits statsite {
 
   file { $statsite::config_path:
     ensure => directory,
+    mode   => 0644,
   }
 
   file { $statsite::config_file:
